@@ -1,0 +1,4 @@
+div.styledFileUploadContainer                               { float:left; height:45px; width:305px; overflow:hidden; position:relative; background:url(/images/browse-button.jpg) top right no-repeat; cursor:pointer; }
+div.styledFileUploadContainer:hover                         { background-position:bottom right; cursor:pointer; }
+input.styledFileUploadFake                                  { width:186px !important; position:absolute; top:0px; left:0px; z-index:1; cursor:pointer; }
+input.styledFileUploadBrowse                                { width:auto; float:right; position:absolute; top:0px; right:0px; z-index:2; opacity:0; filter: alpha(opacity=0); outline-style:none; outline-width:0; cursor:pointer; }
